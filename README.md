@@ -25,3 +25,13 @@ CommonJS modules can always be imported via the default export, for example usin
 import pkg from 'css-what';
 const { AttributeAction, SelectorType } = pkg;
 ```
+
+### Working version
+
+- Switch to `vitest-v19` branch
+
+```
+git fetch
+git checkout vitest-v19
+```
+- Install deps and run the test
