@@ -1,0 +1,29 @@
+{
+  "name": "vitest-v0.20.2-cjs-broken-export-repro",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "test": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "test:ur": "vitest --ui"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.0.1",
+    "@tsconfig/svelte": "^3.0.0",
+    "@vitest/ui": "^0.20.2",
+    "cheerio": "^1.0.0-rc.12",
+    "jsdom": "^20.0.0",
+    "svelte": "^3.49.0",
+    "svelte-check": "^2.8.0",
+    "svelte-preprocess": "^4.10.7",
+    "tslib": "^2.4.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.0",
+    "vitest": "^0.20.2"
+  }
+}
