@@ -9,8 +9,7 @@ describe("addLoadingAttrToImages", () => {
 		const $ = cheerio.load(html);
 		const imageElements = $('img').toArray();
 		addLoadingAttrToImages(imageElements);
-    const expectedOutput =
-    "<img src='demo.png' class='test' alt='demo' loading='lazy'/><img src='demo2.png' alt='demo' loading='lazy'/><img src='demo3.png' alt='demo' loading='lazy'/>";
+    const expectedOutput = '<img src="demo.png" class="test" alt="demo" loading="lazy"><img src="demo2.png" alt="demo" loading="lazy"><img src="demo3.png" alt="demo" loading="lazy">';
 		expect($('body').html()).toBe(expectedOutput);
   })
 })
